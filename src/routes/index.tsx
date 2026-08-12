@@ -27,7 +27,7 @@ import kosha from "@/assets/project-kosha.jpg";
 import project2 from "@/assets/project-2.jpg";
 import project3 from "@/assets/project-3.jpg";
 import resume from "@/assets/Namrata-Paldiya-Resume.pdf";
-import dsaCertificate from "@/assets/dsa-certificate.pdf";
+import dsaCertificate from "@/assets/dsa-certificate.jpg";
 import webCertificate from "@/assets/web-development-certificate.pdf";
 
 export const Route = createFileRoute("/")({
