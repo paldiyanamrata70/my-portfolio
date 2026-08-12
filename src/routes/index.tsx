@@ -882,39 +882,45 @@ function Portfolio() {
             </p>
 
             <div className="mt-12 grid gap-6 md:grid-cols-2">
-              <article className="paper-card rounded-xl p-7">
-                <div className="flex items-start justify-between gap-4">
-                  <span className="blob-shape flex h-12 w-12 shrink-0 items-center justify-center bg-blush">
-                    <Code2 className="h-5 w-5 text-ink" />
-                  </span>
+              <article className="paper-card rounded-xl p-4">
+                <img
+                  src={dsaCertificate}
+                  alt="Data Structures and Algorithms Certificate"
+                  className="h-56 w-full rounded-lg object-cover"
+                />
 
-                  <span className="rounded-full bg-secondary px-3 py-1 text-[10px] text-muted-foreground">
-                    Certificate
-                  </span>
+                <div className="p-3">
+                  <div className="mt-3 flex items-center justify-between gap-4">
+                    <div>
+                      <h3 className="font-display text-xl">
+                        Data Structures & Algorithms
+                      </h3>
+
+                      <p className="mt-1 text-xs text-primary">
+                        DSA Certification
+                      </p>
+                    </div>
+
+                    <span className="rounded-full bg-secondary px-3 py-1 text-[10px] text-muted-foreground">
+                      Certificate
+                    </span>
+                  </div>
+
+                  <p className="mt-4 text-sm leading-relaxed text-muted-foreground">
+                    Certification demonstrating knowledge of data structures,
+                    algorithms, problem solving, and programming fundamentals.
+                  </p>
+
+                  <a
+                    href={dsaCertificate}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="mt-5 inline-flex items-center gap-2 text-xs text-primary hover:underline"
+                  >
+                    View Certificate
+                    <ArrowUpRight className="h-3 w-3" />
+                  </a>
                 </div>
-
-                <h3 className="mt-6 font-display text-xl">
-                  Data Structures & Algorithms
-                </h3>
-
-                <p className="mt-2 text-xs text-primary">
-                  DSA Certification
-                </p>
-
-                <p className="mt-4 text-sm leading-relaxed text-muted-foreground">
-                  Certification demonstrating knowledge of data structures,
-                  algorithms, problem solving, and programming fundamentals.
-                </p>
-
-                <a
-                  href={dsaCertificate}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="mt-6 inline-flex items-center gap-2 text-xs text-primary hover:underline"
-                >
-                  View Certificate
-                  <ArrowUpRight className="h-3 w-3" />
-                </a>
               </article>
 
               <article className="paper-card rounded-xl bg-blush/30 p-7">
