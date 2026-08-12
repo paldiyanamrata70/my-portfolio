@@ -304,8 +304,9 @@ function Portfolio() {
               Namrata Paldiya
             </h1>
             <p className="mt-6 max-w-md text-sm leading-relaxed text-muted-foreground">
-              MCA Graduate & Aspiring Developer crafting elegant digital solutions. Blending
-              technical precision with organic, human-centric design.
+              I build modern, responsive web applications using MongoDB, Express.js,
+              React, and Node.js, with a focus on clean interfaces, scalable backend
+              solutions, and practical user experiences.
             </p>
             <a
               href="#work"
