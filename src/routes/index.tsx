@@ -34,7 +34,7 @@ export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
       {
-        title: "Namrata Paldiya | MCA Student & MERN Stack Developer",
+        title: "Namrata Paldiya",
       },
       {
         name: "description",
